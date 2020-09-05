@@ -1,4 +1,4 @@
-# Gatsby.js MDX Blog Starter Project
+# Emma Goto's blog
 
 A starter project in [Gatsby.js](https://www.gatsbyjs.org/) with [MDX](https://github.com/mdx-js/mdx) to render React components in Markdown. Used by:
 
