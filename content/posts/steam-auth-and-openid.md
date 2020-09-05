@@ -1,12 +1,11 @@
 ---
 title: "Setting up Steam Authentication using OpenID"
 date: 2020-01-03
-tag: "steam"
+tags: ["steam"]
 category: "blog"
-published: true
 emoji: ♨️
 coverImage: ''
----# 
+--- 
 
 If you’ve ever been interested in developing a web app that integrates with Steam, this post will help provide you with a quick overview of the things to keep in mind when getting started.
 

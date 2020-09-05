@@ -2,12 +2,11 @@
 title: "How to mock React hooks using dependency injection"
 date: 2020-04-01
 category: "blog"
-tag: "react"
-published: true
+tags: ["react"]
 emoji: 💉
 coverImage: 'https://images.unsplash.com/photo-1584384624796-55e84bfcbd56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
 
----# 
+--- 
 
 When using hooks in React you may have used or seen this sort of pattern where you use data from a hook to render your component:
 

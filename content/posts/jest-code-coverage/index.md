@@ -1,12 +1,11 @@
 ---
 title: "Understanding code coverage with Jest"
 date: 2020-04-18
-tag: "jest"
+tags: ["jest"]
 category: "blog"
-published: true
 emoji: ☔
 coverImage: 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80'
----# 
+--- 
 
 Your app's **code coverage** is a metric you can use to see what percentage of the code is currently covered by unit tests. It's a useful tool you can use to find any code paths in your app that you may have missed in your tests.
 

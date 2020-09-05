@@ -1,12 +1,11 @@
 ---
 title: "3 Things I Learnt Feature Leading for the First Time"
 date: 2019-07-07
-tag: "career"
+tags: ["career"]
 category: "blog"
-published: true
 emoji: ✏️
 coverImage: ''
----# 
+--- 
 
 When my team starts work on a new feature, a developer is nominated on the team to act as the feature lead. This person is responsible for keeping others up-to-date on the feature's progress, any communications with stakeholders, and creating/managing the backlog of Jira tickets for the feature (which can at times feel never-ending!)
 

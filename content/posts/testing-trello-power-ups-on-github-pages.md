@@ -1,12 +1,11 @@
 ---
 title: "Testing your Trello Power-Up hosted on GitHub Pages"
 date: 2019-04-25
-tag: "Trello Power-Ups"
+tags: ["Trello Power-Ups"]
 category: "blog"
-published: true
 emoji: 🧪
 coverImage: ''
----# 
+--- 
 
 If you want to get started with developing Trello Power-ups, [GitHub Pages](https://pages.github.com/) allows you to host your Power-Up for free (provided you're fine with making your repository public).
 

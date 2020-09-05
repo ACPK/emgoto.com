@@ -1,12 +1,11 @@
 ---
 title: "How to access props in mapDispatchToProps"
 date: 2020-01-29
-tag: "redux"
+tags: ["redux"]
 category: "blog"
-published: true
 emoji: 🗺️
 coverImage: ''
----# 
+--- 
 
 ## Accessing props from state using mergeProps
 

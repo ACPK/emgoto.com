@@ -1,12 +1,11 @@
 ---
 title: "Creating a mobile-friendly navigation component in under 100 lines of code "
 date: 2020-06-04
-tag: "preact"
+tags: ["preact"]
 category: "blog"
-published: true
 emoji: 💯
 coverImage: 'https://images.unsplash.com/photo-1591256936776-5b4abed4299d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60'
----# 
+--- 
 
 As part of the [#100DaysOfCode](https://www.100daysofcode.com/) challenge, I’ve been working on creating a goal-setting app using a Rails + Preact stack. Up until now I’ve been mostly trying to wrap my head around how Rails works, but before it drove me completely crazy I decided I wanted to jump back into front-end land for a little bit. 
 

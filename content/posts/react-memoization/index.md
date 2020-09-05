@@ -2,11 +2,10 @@
 title: "Use memoization in your code to reduce unnecessary re-renders"
 date: 2020-01-17
 category: "blog"
-tag: "react"
-published: true
+tags: ["react"]
 emoji: 🔥
 coverImage: ''
----# 
+--- 
 
 **Memoization** is the act of storing the result of an expensive function call, and re-using the result whenever it’s required, instead of re-calculating it unnecessarily. It’s not something you’ll need to use every day, but something to keep in mind if you’re looking for ways to improve the performance of your React app. 
 

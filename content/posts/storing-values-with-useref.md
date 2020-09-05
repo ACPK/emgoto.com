@@ -1,12 +1,11 @@
 ---
 title: "Storing values with the useRef hook"
 date: 2020-02-20
-tag: "react"
+tags: ["react"]
 category: "blog"
-published: true
 emoji: 💾
 coverImage: ''
----# 
+--- 
 
 By now you’ve all probably heard about [React hooks](https://reactjs.org/docs/hooks-intro.html). You may have heard about (or used) `useRef` too:
 

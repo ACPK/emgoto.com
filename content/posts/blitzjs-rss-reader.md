@@ -1,12 +1,11 @@
 ---
 title: "Building a web-monetized RSS reader using Blitz.js"
 date: 2020-05-22
-tag: "blitz"
+tags: ["blitz"]
 category: "blog"
-published: true
 emoji: 📃
 coverImage: 'https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80'
----#
+---
 
 RSS readers allow users to conveniently consume content from multiple websites in the one place. In this post I'll be going through how to create one using the recently announced [Blitz.js](https://github.com/blitz-js/blitz) framework, and how we can easily set it up to be web-monetized.
 

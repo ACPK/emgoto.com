@@ -1,12 +1,11 @@
 ---
 title: "A guide to module mocking with Jest"
 date: 2020-01-24
-tag: "react"
+tags: ["react"]
 category: "blog"
-published: true
 emoji: 🤡
 coverImage: ''
----# 
+--- 
 
 When writing Jest unit tests, I always struggle to remember the syntax for mocking modules. So this post is intended as a part-guide, part-cheatsheet to refresh your memory when you need to do some mocking.
 

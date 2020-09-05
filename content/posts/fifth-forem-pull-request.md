@@ -1,12 +1,11 @@
 ---
 title: "Attempts at my fifth pull request to Forem"
 date: 2020-08-09
-tag: "opensource"
+tags: ["opensource"]
 category: "blog"
-published: true
 emoji: 🌻
 coverImage: 'https://images.unsplash.com/photo-1535222830855-fd60aca7e065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'
----#
+---
 
 This week, I worked on my fifth pull request to [Forem](https://github.com/forem/forem) (the repository used to power [DEV](https://dev.to)). The feature I decided to tackle was adding a “copy to clipboard” feature to code examples on blog posts.
 The pull request is still [a work-in-progress](https://github.com/forem/forem/pull/9688), but I thought I’d outline my thoughts and process of working on it so far. Open source is fun!

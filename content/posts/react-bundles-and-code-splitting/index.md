@@ -2,11 +2,10 @@
 title: "Analyze your React app’s bundle size and cut it down using code-splitting"
 date: 2020-01-10
 category: "blog"
-tag: "react"
-published: true
+tags: ["react"]
 emoji: ✂️
 coverImage: ''
----# 
+--- 
 As your React app gets larger, you may have to start worrying about its **bundle size**. 
 
 > An app’s **bundle size** is the amount of JavaScript a user will have to download to load your app.

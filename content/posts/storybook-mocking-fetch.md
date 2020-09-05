@@ -1,12 +1,11 @@
 ---
 title: "Mocking fetch requests in Storybook"
 date: 2020-06-01
-tag: "storybook"
+tags: ["storybook"]
 category: "snippets"
-published: true
 emoji: 🐕
 coverImage: ''
----# 
+--- 
 
 Install [fetch-mock](https://www.npmjs.com/package/fetch-mock):
 ```bash

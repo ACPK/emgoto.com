@@ -1,12 +1,11 @@
 ---
 title: "Cloning an item on drag using interact.js"
 date: 2020-03-17
-tag: "interactjs"
+tags: ["interactjs"]
 category: "snippets"
-published: true
 emoji: 🐉
 coverImage: 'https://images.unsplash.com/photo-1524679118078-6eeab91fabc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60'
----# 
+--- 
 
 If you're looking for a JavaScript drag and drop library that provides snapping to grids, or need to make sure items can only be dropped in a specific zone, [interact.js](https://interactjs.io/) provides these capabilities out of the box!
 

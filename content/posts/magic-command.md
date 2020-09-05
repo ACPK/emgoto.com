@@ -1,12 +1,11 @@
 ---
 title: "Linting, committing and pushing your code in one magic command"
 date: 2019-10-20
-tag: "productivity"
+tags: ["productivity"]
 category: "blog"
-published: true
 emoji: 🧙‍♀️
 coverImage: ''
----# 
+--- 
 I recently realised that every day I do the same set of commands over and over:
 
 ```bash

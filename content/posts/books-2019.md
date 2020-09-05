@@ -2,11 +2,10 @@
 title: "My 2019 in books"
 date: 2019-12-27
 category: "blog"
-tag: "books"
-published: true
+tags: ["books"]
 emoji: 📚
 coverImage: ''
----# 
+--- 
 
 I had a really, really good year for reading in 2019 - I hit my goal of **52** books (which is probably the first time I've actually met a New Year's resolution). For comparison, I read 42 books in the previous 3 years combined, so this is a big jump in reading for me. 
 

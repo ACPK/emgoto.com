@@ -1,12 +1,11 @@
 ---
 title: "Seven things I learned at ReactConf AU 2020"
 date: 2020-02-29
-tag: "conference"
+tags: ["conference"]
 category: "blog"
-published: true
 emoji: 🇦🇺
 coverImage: ''
----#
+---
 
 This week I had the chance to attend [ReactConf AU](https://reactconfau.com) - the first ReactConf to be held in Australia! As the first conference that I had ever attended, I think it has set the bar pretty high for me with all the great quality talks. 
 

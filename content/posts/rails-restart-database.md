@@ -1,12 +1,11 @@
 ---
 title: "How to restart your Ruby on Rails database"
 date: 2020-06-01
-tag: "rails"
+tags: ["rails"]
 category: "snippets"
-published: true
 emoji: 🚞
 coverImage: ''
----# 
+--- 
 
 If you’re still early in the development phase of your app, you might want to restart your database so that you can have a “fresh” start.
 

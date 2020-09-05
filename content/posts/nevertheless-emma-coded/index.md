@@ -1,12 +1,11 @@
 ---
 title: "Nevertheless, Emma coded"
 date: 2020-03-06
-tag: "career"
+tags: ["career"]
 category: "blog"
-published: true
 emoji: 👩‍💻
 coverImage: ''
----# 
+--- 
 
 In celebration of International Women’s Day, here’s a quick post about my journey into tech!
 

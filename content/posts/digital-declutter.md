@@ -1,12 +1,11 @@
 ---
 title: "Embracing digital minimalism by doing a digital declutter"
 date: 2020-07-24
-tag: "productivity"
+tags: ["productivity"]
 category: "blog"
-published: true
 emoji: 🧹
 coverImage: 'https://images.unsplash.com/photo-1593934315159-dced6b067412?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1803&q=80'
----# 
+--- 
 
 In his book, [Digital Minimalism](https://www.calnewport.com/books/digital-minimalism/), Cal Newport recommends taking a month-long digital declutter. In this time, you should take a break from all “optional technologies” in your life. 
 

@@ -1,12 +1,11 @@
 ---
 title: "Setting up web monetization on your Gatsby blog (with RSS)"
 date: 2020-05-27
-tag: "gatsby"
+tags: ["gatsby"]
 category: "blog"
-published: true
 emoji: 📰
 coverImage: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
----#
+---
 
 In this post we'll be adding web monetization to your Gatsby blog, allowing you to create content that is only visible to users that are sending you micropayments. We'll also be hiding this monetized content from your RSS feed, and (optionally) setting up a separate secret feed that contains your monetized content.
 

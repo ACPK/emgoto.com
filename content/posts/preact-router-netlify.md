@@ -2,11 +2,10 @@
 title: "How to get preact-router working with Netlify"
 date: 2020-03-21
 category: "snippets"
-tag: "preact"
-published: true
+tags: ["preact"]
 emoji: 🧬
 coverImage: ''
----#
+---
 
 If you're deploying your Preact app with preact-router to Netlify, you may find that trying to access anything other than the root of your website (e.g. `foo.netlify.com/bar`) will give you a "Page not found" error.
 

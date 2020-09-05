@@ -1,12 +1,11 @@
 ---
 title: "Using CSS-in-JS with Preact"
 date: 2020-08-16
-tag: "preact"
+tags: ["preact"]
 category: "snippets"
-published: true
 emoji: 👘
 coverImage: 'https://images.unsplash.com/photo-1596206494156-2ef1898d58a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
----#
+---
 
 The two most popular CSS-in-JS libraries, [styled-components](https://github.com/styled-components/styled-components) and [Emotion](https://github.com/emotion-js/emotion), don’t support Preact out of the box. However there is an easy workaround.
 
