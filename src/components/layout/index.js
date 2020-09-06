@@ -5,6 +5,8 @@ import { Container, SquareContainer, TextContainer } from './styled';
 import Header from './header';
 import './theme.css';
 
+require("typeface-open-sans")
+
 const Layout = ({ children, pageContext }) => {
     if (pageContext.noLayout) {
         return (

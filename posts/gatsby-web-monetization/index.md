@@ -63,7 +63,7 @@ import { MonetizedContent } from '../components/Monetized';
 
 The final step is to use this `MonetizedContent` wrapper in your posts:
 
-```mdx
+```md
 // your-blog-post.mdx
 
 ---

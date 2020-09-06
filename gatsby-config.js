@@ -134,18 +134,7 @@ const config = {
       options: {
         component: require.resolve(`./src/components/layout/index.js`),
       },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`400`, `700`]
-          }
-        ],
-      },
-    },
+    }
   ],
 };
 
