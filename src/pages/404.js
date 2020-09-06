@@ -4,7 +4,7 @@ import Seo from '../components/seo';
 
 const PageNotFound = () => (
     <p>
-        <Seo title="404" />
+        <Seo />
         <Link to="/">Head back home.</Link>
     </p>
 );

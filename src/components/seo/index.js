@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import favicon from '../../images/favicon.png';
 
-function SEO({ description, lang, meta, keywords, title, slug }) {
+function SEO({ description, title, keywords, slug }) {
     const { site } = useStaticQuery(
         graphql`
             query {
@@ -23,9 +23,12 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
     const metaDescription =
         description || site.siteMetadata.description;
 
+    const slugWithoutSlashes = () => slug.replace(/\//g, '');
+
     const socialCard = slug
-        ? `${site.siteMetadata.siteUrl}/${slug}-twitter.png`
+        ? `${site.siteMetadata.siteUrl}/${slugWithoutSlashes()}-twitter.png`
         : `${site.siteMetadata.siteUrl}/square-social-card.png`;
+
     const twitterCard = slug ? 'summary_large_image' : 'summary';
 
     const mDescription = slug
@@ -41,22 +44,13 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
               property: `og:description`,
               content: metaDescription,
           };
-    const ogTitle =
-        title === 'blog' || title === 'snippets'
-            ? 'Emma Goto'
-            : title;
 
-    const twitterDescription = slug
-        ? {}
-        : {
-              name: `twitter:description`,
-              content: metaDescription,
-          };
+    const ogTitle = title ? title : 'Emma Goto';
 
     return (
         <Helmet
             htmlAttributes={{
-                lang,
+                lang: 'en',
             }}
             title={title}
             titleTemplate={`%s · ${site.siteMetadata.title}`}
@@ -64,7 +58,10 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
             meta={[
                 mDescription,
                 ogDescription,
-                twitterDescription,
+                {
+                    name: `twitter:description`,
+                    content: description ? description : metaDescription,
+                },
                 {
                     property: `og:title`,
                     content: ogTitle,
@@ -105,8 +102,7 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
                               content: keywords.join(`, `),
                           }
                         : [],
-                )
-                .concat(meta)}
+                )}
             link={[
                 {
                     rel: 'shortcut icon',
@@ -119,16 +115,12 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
 }
 
 SEO.defaultProps = {
-    lang: `en`,
-    meta: [],
     keywords: [],
     description: ``,
 };
 
 SEO.propTypes = {
     description: PropTypes.string,
-    lang: PropTypes.string,
-    meta: PropTypes.arrayOf(PropTypes.object),
     keywords: PropTypes.arrayOf(PropTypes.string),
     title: PropTypes.string,
 };

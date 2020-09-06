@@ -10,12 +10,13 @@ export default ({ data }) => {
             frontmatter: { title, date, tags },
             slug,
             body,
+            excerpt,
         },
     } = data;
 
     return (
         <>
-            <Seo title={title} slug={slug} />
+            <Seo title={title} slug={slug} description={excerpt} />
             <Content
                 title={title}
                 body={body}
@@ -40,6 +41,7 @@ export const pageQuery = graphql`
             }
             slug
             body
+            excerpt
         }
     }
 `;

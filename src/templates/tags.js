@@ -8,7 +8,7 @@ export default ({ pageContext, data }) => {
     return (
         <>
             <h1>{`#${tag}`}</h1>
-            <Seo title={`#${tag}`} slug={tag} />
+            <Seo title={`Posts tagged #${tag}`} />
             <Summaries edges={data.allMdx.edges} />
         </>
     );

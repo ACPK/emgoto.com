@@ -6,7 +6,7 @@ import Seo from '../components/seo';
 export default ({ data }) => (
     <>
         <h1>blog</h1>
-        <Seo title={'Blog'} slug={'blog'} />
+        <Seo />
         <Summaries edges={data.allMdx.edges} />
     </>
 );
