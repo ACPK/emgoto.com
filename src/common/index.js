@@ -102,4 +102,16 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 4px;
     font-size: 14px;
   }
+
+  h2, h3, h4 {
+    &:hover > .anchor.after > svg {
+      visibility: visible;
+      fill: ${offWhite};
+      margin-left: 8px;
+    }
+
+    .anchor.after > svg {
+      visibility: hidden;
+    }
+  }
 `;

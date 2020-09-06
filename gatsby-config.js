@@ -86,6 +86,12 @@ const config = {
         extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
           {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              isIconAfterHeader: true,
+            }
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 800,
