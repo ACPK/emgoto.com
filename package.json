@@ -32,13 +32,13 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
     "react-youtube": "^7.11.2",
-    "remark-unwrap-images": "^2.0.0",
     "styled-components": "^5.1.0",
     "typeface-open-sans": "^0.0.75"
   },
   "devDependencies": {
     "prettier": "^1.16.4",
-    "puppeteer": "^2.1.1"
+    "puppeteer": "^2.1.1",
+    "replace-in-file": "^6.1.0"
   },
   "keywords": [
     "gatsby"
@@ -49,6 +49,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "coverImage": "./scripts/coverImage.js"
+    "coverImage": "./scripts/coverImage.js",
+    "uly": "./scripts/ulysses.js"
   }
 }

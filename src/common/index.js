@@ -94,6 +94,7 @@ export const GlobalStyle = createGlobalStyle`
 
   .gatsby-resp-image-image {
     border-radius: 8px;
+    box-shadow: none !important;
   }
 
   figcaption {
