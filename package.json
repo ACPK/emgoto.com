@@ -3,7 +3,7 @@
   "description": "Emma Goto's blog",
   "version": "1.0.0",
   "author": "Emma Goto",
-  "repository": "https://github.com/emgoto/blog",
+  "repository": "https://github.com/emgoto/emgoto.com",
   "dependencies": {
     "@mdx-js/mdx": "^1.6.0",
     "@mdx-js/react": "^1.6.0",

@@ -70,10 +70,8 @@ const IndexPage = ({ data }) => (
             url="https://dev.to/emma/discover-content-creators-using-monetized-rss-40n1"
             title="Discover content creators using monetized-rss"
         >
-            Runner up in theDEV x Grant For The Web hackathon.
+            Runner up in the DEV x Grant For The Web hackathon.
         </Project>
-
-        <br />
 
         <h2>Recent posts</h2>
         <Summaries edges={data.allMdx.edges} />

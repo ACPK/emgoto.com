@@ -3,16 +3,13 @@ import { graphql } from 'gatsby';
 import Summaries from '../components/summaries';
 import Seo from '../components/seo';
 
-export default ({ data }) => {
-    console.log('data', data);
-    return (
-        <>
-            <h1>blog</h1>
-            <Seo title={'Blog'} slug={'blog'} />
-            <Summaries edges={data.allMdx.edges} />
-        </>
-    );
-};
+export default ({ data }) => (
+    <>
+        <h1>blog</h1>
+        <Seo title={'Blog'} slug={'blog'} />
+        <Summaries edges={data.allMdx.edges} />
+    </>
+);
 
 export const pageQuery = graphql`
     query {

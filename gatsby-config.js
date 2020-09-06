@@ -1,7 +1,7 @@
 const config = {
   siteMetadata: {
     title: `Emma Goto`,
-    description: `Personal blog of a front-end developer. `,
+    description: `Front-end development and side projects.`,
     author: `Emma Goto`,
     siteUrl: `https://www.emgoto.com`,
   },
@@ -29,20 +29,20 @@ const config = {
         `,
         feeds: [
           {
-            serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+            serialize: ({ query: { site, allMdx } }) => {
+              return allMdx.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
-                  url: site.siteMetadata.siteUrl + edge.node.slug,
-                  guid: site.siteMetadata.siteUrl + edge.node.slug,
+                  url: site.siteMetadata.siteUrl + '/' + edge.node.slug,
+                  guid: site.siteMetadata.siteUrl + '/' + edge.node.slug,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
             },
             query: `
               {
-                allMarkdownRemark(
+                allMdx(
                   sort: { order: DESC, fields: [frontmatter___date] },
                   filter: { frontmatter: { category: { ne: null } } }
                 ) {

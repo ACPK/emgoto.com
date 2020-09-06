@@ -2,12 +2,14 @@ import styled from 'styled-components';
 import colors from '../../common';
 
 export const Container = styled.div`
-    background-color: ${colors.lightGrey};
+    background-color: ${colors.darkGrey};
     padding: 16px;
     border-left: 8px solid ${colors.blue};
     border-radius: 0 4px 4px 0;
     font-size: 14px;
+    margin: 48px;
     margin-top: 32px;
+    margin-bottom: 16px; 
 
     h4 {
         margin-top: 0;
