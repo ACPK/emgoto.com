@@ -19,16 +19,12 @@ function SEO({ description, lang, meta, keywords, title, slug }) {
             }
         `,
     );
-    
 
     const metaDescription =
         description || site.siteMetadata.description;
 
-    const slugWithoutSlashes = () => slug.split('/')[1];
     const socialCard = slug
-        ? `${
-              site.siteMetadata.siteUrl
-          }/${slugWithoutSlashes()}-twitter.png`
+        ? `${site.siteMetadata.siteUrl}/${slug}-twitter.png`
         : `${site.siteMetadata.siteUrl}/square-social-card.png`;
     const twitterCard = slug ? 'summary_large_image' : 'summary';
 

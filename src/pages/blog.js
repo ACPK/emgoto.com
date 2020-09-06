@@ -5,12 +5,14 @@ import Seo from '../components/seo';
 
 export default ({ data }) => {
     console.log('data', data);
-    return  <>
-    <h1>blog</h1>
-    <Seo title={'Blog'} slug={'blog'} />
-    <Summaries edges={data.allMdx.edges} />
-</>
-}
+    return (
+        <>
+            <h1>blog</h1>
+            <Seo title={'Blog'} slug={'blog'} />
+            <Summaries edges={data.allMdx.edges} />
+        </>
+    );
+};
 
 export const pageQuery = graphql`
     query {

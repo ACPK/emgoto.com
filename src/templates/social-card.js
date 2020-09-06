@@ -71,7 +71,8 @@ const Grow = styled.div`
 
 const SocialCard = ({
     pageContext: { isTwitter, title, emoji, coverImage },
-}) => <Container isTwitter={isTwitter} image={coverImage}>
+}) => (
+    <Container isTwitter={isTwitter} image={coverImage}>
         <Grow />
         <SquareContainer>
             <TerminalBar scale={1.5} />
@@ -81,5 +82,6 @@ const SocialCard = ({
             </Header>
         </SquareContainer>
     </Container>
+);
 
 export default SocialCard;
