@@ -5,7 +5,7 @@ const _ = require("lodash")
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `Mdx`) {
-    const slug = createFilePath({ node, getNode, basePath: `content/posts/`, trailingSlash: false });
+    const slug = createFilePath({ node, getNode, basePath: `posts/`, trailingSlash: false });
     createNodeField({ node, name: `slug`, value: slug });
   }
 };
@@ -52,7 +52,7 @@ exports.createPages = ({ graphql, actions }) => {
       if (process.env.gatsby_executing_command.includes('develop')) {
         const { title, emoji, coverImage } = node.frontmatter;
         createPage({
-          path: `${node.slug}image_tw`,
+          path: `${node.slug}/image_tw`,
           component: require.resolve('./src/templates/social-card.js'),    
           context: { 
             slug: node.slug,
@@ -65,7 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         createPage({
-          path: `${node.slug}image_dev`,
+          path: `${node.slug}/image_dev`,
           component: require.resolve('./src/templates/social-card.js'),    
           context: { 
             slug: node.slug,
