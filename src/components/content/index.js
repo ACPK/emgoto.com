@@ -27,6 +27,8 @@ const GithubLink = ({ slug }) => (
             <a
                 href={getGithubUrl(slug)}
                 aria-labelledby="Edit this post"
+                target="_blank"
+                rel="noopener noreferrer"
             >
                 <div>
                     <GithubIcon />

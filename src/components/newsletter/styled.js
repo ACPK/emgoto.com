@@ -7,7 +7,8 @@ export const Container = styled.div`
     border-left: 8px solid ${colors.blue};
     border-radius: 0 4px 4px 0;
     font-size: 14px;
-    margin: 48px;
+    max-width: 400px;
+    margin: 0 auto;
     margin-top: 32px;
     margin-bottom: 16px; 
 
@@ -31,15 +32,16 @@ export const Container = styled.div`
         padding: 8px;
         font-size: 14px;
         border-radius: 4px;
+        margin-right: 8px;
+        margin-bottom: 4px;
     }
 
     input[type='submit'] {
         color: ${colors.white};
         padding: 8px;
-        border-radius: 8px;
+        border-radius: 4px;
         font-size: 14px;
-        margin-left: 8px;
-        background-color: transparent;
+        background-color: ${colors.grey};
         border: none;
 
         &:hover {
