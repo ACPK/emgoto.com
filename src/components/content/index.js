@@ -12,7 +12,7 @@ import {
 } from './styled';
 
 const getGithubUrl = slug =>
-    `https://github.com/emgoto/emgoto.com/tree/master/posts/${slug}/index.md`;
+    `https://github.com/emgoto/emgoto.com/tree/master/posts/${slug}index.md`;
 
 const Tag = ({ tag }) => (
     <Link to={`/tags/${kebabCase(tag)}`}>

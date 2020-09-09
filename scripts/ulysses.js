@@ -49,21 +49,23 @@ const ulysses = () => {
     const images = glob.sync(join(newFolder, 'assets', '*'));
     images.forEach(image => {
         let imageName = image.match(/assets\/([^\/]+)/)[1];
-        rename(image, `${newFolder}/${imageName}`, () => {});
+        rename(image, `${newFolder}/${imageName}`, () => {
+            rmdir(`${newFolder}/assets`, () => {});
+            unlink(`${newFolder}/info.json`, () => {});
+        
+            rename(`${newFolder}/text.md`, `${newFolder}/index.md`, () => {
+                const options = {
+                    files: `${newFolder}/index.md`,
+                    from: [/\[\]\(assets/g, /^# .*/g],
+                    to: ['[](.', title => frontMatter(title)],
+                };
+            
+                replace.sync(options);
+            });
+        });
     });
 
-    rmdir(`${newFolder}/assets`, () => {});
-    unlink(`${newFolder}/info.json`, () => {});
 
-    rename(`${newFolder}/text.md`, `${newFolder}/index.md`, () => {});
-    
-    const options = {
-        files: `${newFolder}/index.md`,
-        from: [/\[\]\(assets/g, /^# .*/g],
-        to: ['[](.', title => frontMatter(title)],
-    };
-
-    replace.sync(options);
 }
 
 ulysses();

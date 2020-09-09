@@ -52,7 +52,7 @@ exports.createPages = ({ graphql, actions }) => {
       if (process.env.gatsby_executing_command.includes('develop')) {
         const { title, emoji, coverImage } = node.frontmatter;
         createPage({
-          path: `${node.slug}/image_tw`,
+          path: `${node.slug}image_tw`,
           component: require.resolve('./src/templates/social-card.js'),    
           context: { 
             slug: node.slug,
@@ -65,7 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         createPage({
-          path: `${node.slug}/image_dev`,
+          path: `${node.slug}image_dev`,
           component: require.resolve('./src/templates/social-card.js'),    
           context: { 
             slug: node.slug,

@@ -94,7 +94,6 @@ const main = async () => {
   for (let i = 0; i < files.length; i++) {
     const file = files[i]
     if (file.slug === newSlug) {
-      console.log(`${baseUrl}${file.slug}/image_tw`);
       const destinationFile = join(process.cwd(), 'static', `${file.slug}-twitter.png`);
       if (file['generate-card'] !== false && !existsSync(destinationFile)) {
         await takeScreenshot(
