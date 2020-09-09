@@ -97,7 +97,8 @@ const config = {
               maxWidth: 800,
               linkImagesToOriginal: false,
               showCaptions: true,
-              wrapperStyle: 'margin: 16px 0;'
+              wrapperStyle: 'margin: 16px 0;',
+              quality: 70
             },
           },
           {
