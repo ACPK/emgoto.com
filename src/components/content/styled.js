@@ -21,6 +21,7 @@ export const TagContainer = styled.div`
 
 export const DateAndTags = styled.div`
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     font-size: 0.9rem;
     color: ${colors.darkGreen};
