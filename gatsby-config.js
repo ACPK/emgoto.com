@@ -131,7 +131,8 @@ const config = {
         start_url: `/`,
         background_color: `#202933`,
         theme_color: `#202933`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: 'src/images/favicon.png'
       },
     },
     {

@@ -23,6 +23,7 @@ const Header = () => (
                     href="https://dev.to/emma"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="DEV"
                 >
                     <IconDev />
                 </a>
@@ -32,6 +33,7 @@ const Header = () => (
                     href="https://twitter.com/emma_goto"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Twitter"
                 >
                     <IconTwitter />
                 </a>
